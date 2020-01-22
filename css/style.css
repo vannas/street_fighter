@@ -4,11 +4,12 @@
 	height:80px;
 	display:inline-block;
 	position:absolute;
-	top:140px;
+	top:120px;
 	left:100px;
-}
+	
+	}
 #field{
-	background-image: url('../images/background_blanka.gif');
+	background-image: url('http://slateman.net/images/gaming/backgrounds/sfz2/sfz2-dan.gif');
 	width:621px;
 	height:224px;
 	position:relative;
@@ -18,7 +19,24 @@ h1{
 }
 body{
 	font-size:12px;
+	text-align: center;
+	background-color: peachpuff;
 }
 h2{
-	font-size:14px;
+	font-size:20px;
+	margin-top: 20px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	background-color: indianred;
+	border: 2px dashed black;
+	}
+
+li {
+	list-style-type: none;
+	font-size: 18px;
+}
+
+.instructions {
+	background-color: palevioletred;
+	border: 2px dashed black;
+	margin:10px
 }
